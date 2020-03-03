@@ -1,0 +1,17 @@
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\bin\Debug\screenProtector.exe.config
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\bin\Debug\screenProtector.exe
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\bin\Debug\screenProtector.pdb
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector.csprojResolveAssemblyReference.cache
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\App.g.cs
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector_MarkupCompile.cache
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector.Properties.Resources.resources
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector.csproj.GenerateResource.Cache
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector.exe
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector.pdb
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\PictureBox.g.cs
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector_MarkupCompile.lref
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\PictureBox.baml
+c:\users\10600798\documents\visual studio 2015\Projects\screenProtector\screenProtector\obj\Debug\screenProtector.g.resources
+C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\bin\Debug\screenProtector.exe.config
+C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\screenProtector.exe
+C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\screenProtector.pdb
