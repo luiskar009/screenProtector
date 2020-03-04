@@ -14,7 +14,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 
-
 namespace screenProtector
 {
     /// <summary>
@@ -29,5 +28,12 @@ namespace screenProtector
             BitmapImage imageBitmap = new BitmapImage(imageUri);
             Picture.Source = imageBitmap;
         }
+
+        private void Window_ContentRendered(object sender, EventArgs e)
+        {
+            Thread.Sleep(3000);
+            this.Close();
+        }
     }
 }
+

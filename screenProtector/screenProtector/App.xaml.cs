@@ -52,10 +52,9 @@ namespace screenProtector
 
         public static void getImagesUpFront(string path)
         {
+            Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
             PictureBox pb = new PictureBox(path);
-            pb.Show();
-            Thread.Sleep(3000);
-            pb.Close();
+            pb.ShowDialog();
         }
 
     }

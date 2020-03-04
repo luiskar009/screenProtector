@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:screenProtector"
         mc:Ignorable="d"
-        Title="PictureBox" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="PictureBox" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Maximized" ContentRendered="Window_ContentRendered">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -13,6 +13,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-        <Image Grid.Row="0" Grid.Column="0" Visibility="Visible" Name="Picture" Source= "C:\Users\10600798\Desktop\Informes\img\CheckInventory.png"/>
+        <Image Grid.Row="0" Grid.Column="0" Visibility="Visible" Name="Picture"/>
     </Grid>
 </Window>
