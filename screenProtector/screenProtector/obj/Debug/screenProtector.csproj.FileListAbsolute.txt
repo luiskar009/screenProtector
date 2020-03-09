@@ -25,3 +25,6 @@ C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\o
 C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\screenProtector.csproj.GenerateResource.Cache
 C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\screenProtector.exe
 C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\screenProtector.pdb
+C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\screenProtector.csprojResolveAssemblyReference.cache
+C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\VideoBox.g.cs
+C:\Users\10600798\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\VideoBox.baml

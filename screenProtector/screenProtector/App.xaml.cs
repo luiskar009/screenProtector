@@ -24,10 +24,19 @@ namespace screenProtector
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            List<string> images = Directory.EnumerateFiles(ConfigurationManager.AppSettings["path"], "*.*", SearchOption.AllDirectories)
-                .Where(s => s.EndsWith(".png") || s.EndsWith(".jpg")).ToList();
+            List<string> files = Directory.EnumerateFiles(ConfigurationManager.AppSettings["path"], "*.*", SearchOption.AllDirectories)
+                .ToList();
+                //.Where(s => s.EndsWith(".png") || s.EndsWith(".jpg")).ToList();
 
-            getImagesUpFront(images[1]);
+            foreach(string file in files)
+            {
+                if (ConfigurationManager.AppSettings["type"].ToString() == "image")
+                    getImagesUpFront(file);
+                if (ConfigurationManager.AppSettings["type"].ToString() == "video")
+                    getVideosUpFront(file);
+                getOutlookUpFront();
+                Thread.Sleep(Int32.Parse(ConfigurationManager.AppSettings["time"].ToString()));
+            }        
 
             // Cierra la aplicacion
             Environment.Exit(0);
@@ -54,6 +63,13 @@ namespace screenProtector
         {
             Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
             PictureBox pb = new PictureBox(path);
+            pb.ShowDialog();
+        }
+
+        public static void getVideosUpFront(string path)
+        {
+            Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+            VideoBox pb = new VideoBox(path);
             pb.ShowDialog();
         }
 

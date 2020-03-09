@@ -14,27 +14,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-
 namespace screenProtector
 {
     /// <summary>
-    /// Lógica de interacción para PictureBox.xaml
+    /// Lógica de interacción para VideoBox.xaml
     /// </summary>
-    public partial class PictureBox : Window
+    public partial class VideoBox : Window
     {
-        public PictureBox(string path)
+        public VideoBox(string path)
         {
             InitializeComponent();
-            Uri imageUri = new Uri(path);
-            BitmapImage imageBitmap = new BitmapImage(imageUri);
-            Picture.Source = imageBitmap;
+            Uri videoUri = new Uri(path);
+            Video.Source = videoUri;
         }
 
-        private void Window_ContentRendered(object sender, EventArgs e)
+        private void Video_MediaEnded(object sender, RoutedEventArgs e)
         {
-            Thread.Sleep(Int32.Parse(ConfigurationManager.AppSettings["timeBox"].ToString()));
             this.Close();
         }
     }
 }
-
