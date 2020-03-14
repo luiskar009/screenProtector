@@ -55,7 +55,8 @@ namespace screenProtector
             if (process != null)
             {
                 IntPtr s = process.MainWindowHandle;
-                ShowWindow(s, 1);
+                //ShowWindow(s, 2);
+                SetForegroundWindow(s);
             }
         }
 

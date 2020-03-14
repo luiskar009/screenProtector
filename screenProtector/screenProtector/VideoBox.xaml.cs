@@ -24,6 +24,7 @@ namespace screenProtector
         public VideoBox(string path)
         {
             InitializeComponent();
+            this.Topmost = true;
             Uri videoUri = new Uri(path);
             Video.Source = videoUri;
         }

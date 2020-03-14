@@ -1,0 +1,15 @@
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\bin\Release\screenProtector.exe.config
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\bin\Release\screenProtector.exe
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\bin\Release\screenProtector.pdb
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\PictureBox.g.cs
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\VideoBox.g.cs
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\App.g.cs
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector_MarkupCompile.cache
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector_MarkupCompile.lref
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\PictureBox.baml
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\VideoBox.baml
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector.g.resources
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector.Properties.Resources.resources
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector.csproj.GenerateResource.Cache
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector.exe
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\screenProtector.pdb

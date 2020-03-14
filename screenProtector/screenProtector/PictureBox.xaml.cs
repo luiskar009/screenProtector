@@ -25,6 +25,7 @@ namespace screenProtector
         public PictureBox(string path)
         {
             InitializeComponent();
+            this.Topmost = true;
             Uri imageUri = new Uri(path);
             BitmapImage imageBitmap = new BitmapImage(imageUri);
             Picture.Source = imageBitmap;

@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Debug\
+C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\obj\Release\
 screenProtector
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Ansalgar1\Source\Repos\screenProtector\screenProtector\screenProtector\App.xaml
 2249760053
 
